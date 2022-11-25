@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도미노피자</title>
+
+    <!-- 1.초기화 -->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!-- 2.공통서식 -->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <!-- 3.메인 콘텐츠 서식 -->
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css">
+    <link href="./css/pc.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper -->
+    <link href="./css/swiper.css" rel="stylesheet" type="text/css">
+    <!-- 스와이퍼 슬라이드 제리쿼리 소스 -->
+    <script src="./script/swiper.js"></script>
+    <!-- 프리픽스 프리 css속성 사용시 속성앞에 접두사를 자동으로 붙여주는 스크립트 -->
+    <script src="./script/prefixfree.min.js"></script>
+
+   
+
+</head>
+<body>
+    <!-- 헤더영역 시작 -->
+    <header>
+        <div class="header_inner">
+            <h1>
+                <a href="index.html" title="메인페이지로 바로가기">
+                    <img src="./images/domino_logo.png" alt="메인로고">
+                </a>
+            </h1>
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="search.html" title="검색"><i class="fas fa-search"></i></a>
+            <a href="login.html" title="로그인"><i class="fas fa-user"></i></a>
+            <ul class="phone">
+                <li><a href="menu.html">메뉴</a></li>
+                <li><a href="found.html">매장찾기</a></li>
+                <li><a href="event.html">이벤트</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+            </ul>
+            <ul class="pc">
+                <li><a href="menu.html"> 메뉴</a></li>
+                <li><a href="hot.html">인기상품</a></li>
+                <li><a href="quick.html">빠른주문</a></li>
+                <li><a href="found.html">매장찾기</a></li>
+                <li><a href="event.html">이벤트</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="more.html">더보기</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    <!-- 메인영역 시작 -->
+    <main>
+        
+      <article class="slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드1"><img src="./images/mobile_slide1.jpg" alt="메인슬라이드1"></a></div>
+                    
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드2"><img src="./images/mobile_slide2.jpg" alt="메인슬라이드2"></a></div>
+                
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드3"><img src="./images/mobile_slide3.jpg" alt="메인슬라이드3"></a></div>
+               
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드4"><img src="./images/mobile_slide4.jpg" alt="메인슬라이드4"></a></div>
+                
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드5"><img src="./images/mobile_slide5.jpg" alt="메인슬라이드5"></a></div>
+                </div>
+                <div class ="swiper-pagination">
+                    
+                </div>
+                
+            </div>
+          
+        </article>
+      <article class="slide">
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드1"><img src="./images/main-slide.jpg" alt="메인슬라이드1"></a></div>
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드2"><img src="./images/main-slide2.jpg" alt="메인슬라이드2"></a></div>
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드3"><img src="./images/main-slide3.jpg" alt="메인슬라이드3"></a></div>
+                    <div class="swiper-slide"><a href="event.html" title="메인슬라이드4"><img src="./images/main-slide4.jpg" alt="메인슬라이드4"></a></div>
+                    
+                  
+                </div>
+                <div class ="swiper-pagination">
+                    
+                </div>
+                
+            </div>
+          
+        </article>
+       
+        <ul class="order">
+        <li><ul class="pc_order">
+            <li><a href="delivery.html"><i>배달 주문</i></a></li>
+            <li><a href="packaging.html"><i>포장 주문</i></a></li>
+            <li><a href="quick.html"><i>퀵오더</i></a>  </li>
+        </ul></li>
+        <li><ul class="mobile_order">
+            <li><a href="delivery.html"><i><img src="./images/badall.png" alt="배달 아이콘"> 배달 주문</i></a></li>
+            <li><a href="packaging.html"><i><img src="./images/pozang.png" alt="포장 아이콘"> 포장 주문</i></a></li>
+        </ul></li>
+    </ul>
+    <h2 class="menu_title">추천 메뉴</h2>
+    <div class="menu_list">
+        <ul>
+            <li class="menu01"><a href="order.html"> <img class="m01" src="./images/menu1.jpg" alt="와일드 와일드 웨스트 스테이크">
+            <p class="title1">와일드 와일드 웨스트 스테이크</p></a>
+            <p class="price1">L 33,900원~  M 28,000원~</p>
+            
+            </li>
+            <li class="menu02"><a href="order.html"> <img class="m02" src="./images/menu2.jpg" alt="와일드 와일드 웨스트 스테이크+블랙타이거 슈림프">
+            <p class="title2">와일드 와일드 웨스트 스테이크<br>+블랙타이거 슈림프</p></a>
+            <p class="price2">L 35,400원~  M 29,000원~</p>
+            </li>
+        </ul>
+    </div>
+    <section class="mania">
+
+        <h2>도미노 매니아 가입하고 혜택 누리기</h2>
+
+        <p class="login"><a href="join.html"> 가입하기</a></p>
+        <article class="slide">
+            <div class="swiper domino_mania">
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide"><img src="./images/main_card1.png" alt="도미노매니아1"></div>
+                    <div class="swiper-slide"><img src="./images/main_card2.gif" alt="도미노매니아2"></div>
+                    <div class="swiper-slide"><img src="./images/main_card3.png" alt="도미노매니아3"></div>
+                    <div class="swiper-slide"><img src="./images/main_card4.png" alt="도미노매니아4"></div>
+                    
+                  
+                </div>
+                
+            </div>
+          
+        </article>
+
+    </section>
+
+    <section class="sale">
+         <img src="./images/ticket.png" alt="할인모음">
+         <p ><a href="coupon.html" title="쿠폰 받기">
+            <span class="coupon">COUPON</span><br>
+            <span class="coupon1">특별 할인 모두보기</span><br>
+            <span class="coupon2">최대 50%까지</span>
+        </a>
+        </p>
+    </section>
+   
+    
+    
+    </main>
+
+    <!-- 푸터영역 시작 -->
+    <footer>
+      
+        
+        <ul class="rule">
+            <li><a href="rule.html" class="item1">이용약관</a></li>
+            <li><a href="rule.html" class="item2">개인정보처리방침</a></li>
+            <li><a href="rule.html" class="item3">위치기반서비스</a></li>
+            <li><a href="rule.html" class="item4">청소년보호방침</a></li>
+            <li><a href="rule.html" class="item5">고객센터</a></li>
+            <li><a href="rule.html" class="item6">인재채용</a></li>
+            <li><a href="rule.html" class="item7">가맹점모집</a></li>
+            <li><a href="rule.html" class="item8">단체주문</a></li>
+        </ul>
+
+        <ul class="sns">
+            <li><a href="insta.html"><i class='fab fa-instagram'></i></a></li>
+            <li><a href="facebook.html"><i class='fab fa-facebook'></i></a></li>
+            <li><a href="twitter.html"><i class='fab fa-twitter'></i></a></li>
+            
+        </ul>
+
+        <address>
+            <p>06223 서울특별시 강남구 역삼로25길 35(역삼동, 청오큐브타워) 청오디피케이 &#x321C; &#x007C;대표이사 : 오광현,김영훈</p>
+            <p>사업자 등록번호: 220-81-03371&#x007C;통신판매업신고: 강남 5064호&#x007C;개인정보 보호책임자 : 이명윤</p>
+            <p>문의 : webmaster@dominos.co.kr</p>
+            <p>Copyright &copy; Domino’s Pizza. All rights reserved.</p>
+            <p>청오디피케이&#x321C;의 사전 서면동의 없이 도미노피자 사이트(PC, 모바일, 앱)의 일체의 정보, 콘텐츠 및 UI 등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.</p>
+        </address>
+    </footer>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 0,
+          effect:"slide",
+          centeredSlides:true,
+          autoplay:{
+            delay:3000,
+            disableOnlnteraction:false,
+          },
+          pagination:{
+            el:".swiper-pagination",
+            clickable:true,
+          },
+        });
+
+        var swiper = new Swiper(".mySwiper2", {
+          spaceBetween: 0,
+          effect:"fade",
+          centeredSlides:true,
+          autoplay:{
+            delay:3000,
+            disableOnlnteraction:false,
+          },
+          pagination:{
+            el:".swiper-pagination",
+            clickable:true,
+          },
+        });
+
+        
+        var swiper = new Swiper(".domino_mania", {
+        spaceBetween: 0,//슬라이드와 슬라이드 사이에 여백
+        centeredSlides: false,//슬라이드 가운데 정렬
+        autoplay: { //자동슬라이드
+          delay: 3500, // 시간설정
+          disableOnInteraction: false, //스와이프 후 자동재생
+        },
+        pagination: { //콘트롤버튼 나오게
+          el: ".swiper-pagination",
+          clickable: true, // 버튼 클릭해도 동작되게함
+        },
+        breakpoints:{
+            320:{
+                slidesPerView:2,//레이아웃2
+            },
+            768:{
+                slidePerView:3,//레이아웃3
+            },
+            1025:{
+                slidePerView:4,//레이아웃4
+            },
+        }
+      });
+      </script>
+
+</body>
+</html>

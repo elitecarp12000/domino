@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+@media screen and (max-width:767px){
+   
+   
+
+.header_inner{
+    
+    height:80px;
+    
+    
+}
+.header_inner h1{
+    text-align:left;
+    margin-left: 15px;
+    
+}
+.header_inner h1 img{
+    height: 29px;
+    padding-top:10px;
+    width:138px;
+    
+    
+}
+
+i.fa-search,i.fa-map-marker-alt,i.fa-user{
+    position: absolute;
+    top:14px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+i.fa-map-marker-alt{
+    left: 55%;
+    display: none;
+}
+i.fa-search{
+    right: 14px;
+}
+i.fa-user{
+    right:60px;
+}
+
+.header_inner ul{
+    margin:10px auto;
+      display:flex;
+      justify-content: space-around;
+      
+      
+}
+.header_inner ul > li > a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:1rem;
+}
+.phone{
+    padding:5px 0px;
+}
+.pc{
+    text-indent: -9999px;
+}
+.pc_order{
+    display: none;
+}
+.mobile_order{
+    
+}
+.mobile_order > li > a{
+    color:#ffffff;
+    text-decoration: none;
+    
+  
+}
+.mobile_order{
+   margin-left: 30px;
+}
+
+.mySwiper2{
+    display: none;
+}
+.mySwiper{
+    position:relative;
+    width: 100%;
+    
+}
+.slide img{
+    width: 100%;
+    max-width: 750px;
+}
+.menu_list{
+    position: relative;
+    
+}
+.title1{
+    position: absolute;
+    top:180px;
+    font-size: 13px;
+    color:#000000;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.price1{
+    position: absolute;
+    top:200px;
+    left:6px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.title2{
+    position: absolute;
+    top:180px;
+    right: 0px;
+    font-size: 13px;
+    color:#000000;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.price2{
+    position: absolute;
+    top:200px;
+    right: 6px;
+    padding-top: 20px;
+    font-size: 13px;
+    
+}
+.menu_list  a img{
+    width: 182px;height: 178px;
+    position: absolute;
+    
+    
+    
+}
+.menu01{
+    position:relative;
+    display: block;float: left;
+    padding-bottom: 50px;
+    width: 50%;
+    height:200px;
+    
+}
+.menu02{
+    position:relative;
+    display: block;
+    float: right;
+    padding-bottom: 50px;
+    width: 50%;
+    height:200px;
+    
+}
+.menu02 img{
+    right: 0px;
+}
+.mania{
+    max-width: 724px;
+    overflow: hidden;
+    margin: 0px auto;
+    border:3px solid rgb(255, 255, 255 , 0.1);
+    height: 300px;
+    background-color: rgba(215, 215, 215, 0.3);
+}
+.mania img{
+    
+    width: 85%;
+    height: 85%;
+    padding-left: 10px;
+    
+    
+}
+.mania h2{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login a{
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 25%;
+    
+    
+    
+}
+.login{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sale{
+    max-width: 724px;
+    overflow: hidden;
+    margin: 0px auto;
+    border:3px solid rgba(255, 255, 255, 0.9);
+    position: relative;
+}
+.sale img{
+    width: 100%;
+  
+    
+}
+.sale p{
+    
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    top:50%;transform:translateY(-50%);
+    width: 100%;
+    line-height: 170%;
+}
+.sale span{
+   
+}
+.sale a{
+    text-decoration: none;
+    color: #fff;
+}
+.coupon{
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+.coupon1{
+    font-size:20px;
+}
+.coupon2{
+    font-size: 20px;
+}
+footer{
+    font-size: 11px;
+    position: relative;
+}
+
+.rule{
+    padding-top:30px;
+    display: grid;
+    
+    grid-template-areas:
+    "1 2 3 4"
+    "5 6 7 8"
+    ;
+    line-height: 25px;
+    padding-bottom: 50px;
+    
+    
+}
+.rule .item1{grid-area: 1;}
+.rule .item2{grid-area: 2;}
+.rule .item3{grid-area: 3;}
+.rule .item4{grid-area: 4;}
+.rule .item5{grid-area: 5;}
+.rule .item6{grid-area: 6;}
+.rule .item7{grid-area: 7;}
+.rule .item8{grid-area: 8;}
+}
+.sns{
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    
+    bottom: 190px;right: 0px;
+
+}
+.sns a{
+    margin-right: 10px;
+}
+address p{
+    color:#fff;
+    font-style: normal;
+    font-size:10px;
+    line-height: 15px;
+    padding-top:10px;
+}
